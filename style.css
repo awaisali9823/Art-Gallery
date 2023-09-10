@@ -1,0 +1,269 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.firstMain{
+    display: flex;
+    margin-right: 164px;
+}
+.blackPart{
+    background-color: black;
+    width: 450px;
+    height: 799px;
+   
+}
+.firstImage{
+    width: 540px;
+    height: 800px;
+}
+
+.firstText {
+    position: absolute;
+    width: 350px;
+    height: 160px;
+    line-height: 32px;
+    font-size: 22px;
+    font-weight: 300;
+    font-family: 'Outfit';
+    top: 190px; /* Adjust as needed to vertically center the text */
+    left: 83%; /* Adjust as needed to horizontally center the text */
+    transform: translate(-50%, -50%);
+    background-color: transparent; /* Background color with opacity */
+    color: #444; /* Text color */
+    padding: 10px; /* Adjust as needed for padding */
+    font-size: 18px; /* Adjust font size as needed */
+}
+
+.modernText{
+    position: absolute;
+    width: 514px;
+    height: 176px;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px;
+    text-transform: uppercase;
+    /*These two lines + position is used to overlay text*/
+    top: 109px;
+    left: 12.1%;
+    color: white;
+    font-family: 'Big Shoulders Display';
+}
+.split-letter {
+    background: linear-gradient(to right, white 70%, black 30%); /* Apply a gradient to the letter "N" */
+    -webkit-background-clip: text; /*Clip the gradient to the text*/
+    color: transparent; /* Make the text transparent */
+  }
+
+/* .lastN{
+    position: absolute;
+    width: 514px;
+    height: 176px;
+    font-size: 78px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px;
+    text-transform: uppercase;
+    /*These two lines + position is used to overlay text*/
+    /*top: 109px;
+    left: 33.2%;
+    color: black;
+    font-family: 'Big Shoulders Display';
+} */
+
+.button1{
+    display: flex;
+    position: absolute;
+    top: 318px;
+    left: 70%;
+}
+.button2{
+    background-color: #D5966C;
+    width: 204px;
+    height: 72px;
+    font-family: 'Big Shoulders Display';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 3.636px;
+    cursor: pointer;
+}
+.arrow{
+    background-color: black;
+    width: 56px;
+    height: 72px;
+    cursor: pointer;
+}
+
+/* Second Part */
+
+.textS1
+{
+    font-family: 'Big Shoulders Display';
+    font-size: 60px;
+    font-style: normal;
+    text-transform: uppercase;
+    font-weight: 900;
+    line-height: 60px;
+    color: #151515;
+}
+.textS2{
+    color: #444;
+    font-size: 22px;
+    font-style: normal;
+    font-family: 'Outfit';
+    font-weight: 300;
+    line-height: 32px;
+}
+.textSecond
+{   display: flex;
+    flex-direction: column;
+    gap: 32px;
+    justify-content: center;
+    align-items: flex-start;
+    width: 350px;
+    height: 280px;
+}
+
+.secondImage{
+    width: 635px;
+    height: 400px;
+}
+
+.fourthImage{
+    width: 635px;
+    height: 720px;
+}
+
+.thirdImage{
+    width: 445px;
+    height: 313px;
+}
+
+.lastText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 32px;
+    width: 350px;
+    
+    
+}
+
+.lastP1{
+    color: white;
+    font-family: 'Big Shoulders Display';
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 60px;
+    text-transform: uppercase;
+    width: 350px;
+}
+.lastP2{
+    color: #FFF;
+    font-family: 'Outfit';
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px;
+    width: 350px;
+}
+.Textlast{
+    background-color: black;
+    width: 445px;
+    height: 377px;
+}
+
+.secondPart{
+    /* display: grid; */
+    margin-top: 100px;
+    width: 1110px;
+    height: 1150px;
+    margin-left: 165px;
+    margin-right: 164px;
+    /* grid-template-columns: auto auto auto; */
+    /* grid-template-rows: auto auto auto;
+    grid-auto-flow: row dense; */
+}
+
+.flexSecond{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.gridSecond{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 30px;
+}
+.grid3{
+    grid-row: span 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    
+}
+.grid4{
+    margin-left: 25px;
+}
+.grid5{
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.lastText{
+    margin: 65px 47px 64px 48px;
+}
+
+/* Footer */
+
+.footer{
+    margin-top: 180px;
+    background-color: black;
+    height: 244px;
+    width: 1349px;
+    color: white;
+   
+}
+.main-footer{
+    display: flex;
+    width: 1110px;
+    height: 84px; 
+    margin-left: 165px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    /* align-items: center; */
+      
+}
+
+.footerImage{
+    width: 159.5px;
+    height: 58px;
+    margin-top: 6px;
+}
+.footerP{
+    font-family: 'Outfit';
+    width: 430px;
+    height: 84px;
+    
+    margin-left: 140.43px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+}
+
+.icons{
+    justify-self: flex-end;
+    margin-left: 280px;
+    margin-top: 6px;
+    
+    width: 100px;
+    height: 20px;  
+    cursor: pointer;
+}
